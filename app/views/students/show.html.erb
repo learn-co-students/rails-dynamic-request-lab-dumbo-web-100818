@@ -1,0 +1,5 @@
+<h1>This is students/show.html.erb page</h1>
+
+<% Student.all.each do |student|%>
+<h1><%= student.first_name%>, <%= student.last_name%></h1>
+<% end %>
